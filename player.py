@@ -13,7 +13,7 @@ class Player(Entity):
 		self.create_bullet = create_bullet
 		self.bullet_shot = False
 		self.sound = pygame.mixer.Sound('../sound/bullet.wav') # Bullet sound
-		self.health = 1000
+		self.health = 15
 
 
 	def get_status(self):
